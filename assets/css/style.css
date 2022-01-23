@@ -1,5 +1,23 @@
-h1 {
-  color: red;
+.otp-area {
+  text-align: center;
+}
+.otp-area .otp {
+  display: flex;
+  justify-content: center;
+}
+.otp-area .form-control {
+  -webkit-transition: none;
+  transition: none;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  padding: 0;
+}
+.otp-area .form-control:hover {
+  color: #070707;
+}
+.otp-area .form-control:focus {
+  color: #0804f3;
 }
 
 /*# sourceMappingURL=style.css.map */
